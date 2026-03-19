@@ -1,0 +1,48 @@
+{
+  "name": "@hooked/mcp",
+  "version": "0.1.0",
+  "description": "Hooked MCP Server — Let AI agents create videos via the Hooked API",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "hooked-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "dev": "tsup src/index.ts --format esm --watch",
+    "lint": "eslint src/ --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "mcp",
+    "ai-video",
+    "video-api",
+    "hooked",
+    "model-context-protocol",
+    "claude",
+    "cursor"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TryHooked/hooked-mcp.git"
+  },
+  "homepage": "https://hooked.so/mcp",
+  "bugs": {
+    "url": "https://github.com/TryHooked/hooked-mcp/issues"
+  }
+}
