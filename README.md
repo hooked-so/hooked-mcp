@@ -1,4 +1,4 @@
-# @hooked-so/mcp — Hooked MCP Server
+# Hooked MCP Server
 
 Model Context Protocol server for the [Hooked Video API](https://hooked.so/api). Let AI agents (Claude, GPT, Cursor, etc.) create videos programmatically.
 
