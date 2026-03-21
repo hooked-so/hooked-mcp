@@ -1,6 +1,6 @@
 {
   "name": "@hooked-so/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hooked MCP Server — Let AI agents create videos via the Hooked API",
   "type": "module",
   "main": "dist/index.js",
