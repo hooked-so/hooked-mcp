@@ -4,7 +4,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const API_BASE = process.env.HOOKED_API_URL || "https://api.hooked.so/api";
+const API_BASE = process.env.HOOKED_API_URL || "https://api.hooked.so";
 
 async function apiRequest(
   path: string,

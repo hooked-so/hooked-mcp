@@ -74,7 +74,7 @@ Once connected, you can ask your AI assistant:
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `HOOKED_API_KEY` | Yes | Your Hooked API key |
-| `HOOKED_API_URL` | No | Custom API base URL (default: `https://api.hooked.so/api`) |
+| `HOOKED_API_URL` | No | Custom API base URL (default: `https://api.hooked.so`) |
 
 ## Development
 
