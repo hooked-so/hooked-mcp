@@ -1,4 +1,4 @@
-# @hooked/mcp — Hooked MCP Server
+# @hooked-so/mcp — Hooked MCP Server
 
 Model Context Protocol server for the [Hooked Video API](https://hooked.so/api). Let AI agents (Claude, GPT, Cursor, etc.) create videos programmatically.
 
@@ -17,7 +17,7 @@ Add this to your `claude_desktop_config.json`:
   "mcpServers": {
     "hooked": {
       "command": "npx",
-      "args": ["-y", "@hooked/mcp"],
+      "args": ["-y", "@hooked-so/mcp"],
       "env": {
         "HOOKED_API_KEY": "your_api_key_here"
       }
@@ -35,7 +35,7 @@ Add this to your `.cursor/mcp.json`:
   "mcpServers": {
     "hooked": {
       "command": "npx",
-      "args": ["-y", "@hooked/mcp"],
+      "args": ["-y", "@hooked-so/mcp"],
       "env": {
         "HOOKED_API_KEY": "your_api_key_here"
       }

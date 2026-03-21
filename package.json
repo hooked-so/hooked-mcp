@@ -1,5 +1,5 @@
 {
-  "name": "@hooked/mcp",
+  "name": "@hooked-so/mcp",
   "version": "0.1.0",
   "description": "Hooked MCP Server — Let AI agents create videos via the Hooked API",
   "type": "module",
@@ -39,10 +39,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TryHooked/hooked-mcp.git"
+    "url": "https://github.com/hooked-so/hooked-mcp.git"
   },
   "homepage": "https://hooked.so/mcp",
   "bugs": {
-    "url": "https://github.com/TryHooked/hooked-mcp/issues"
+    "url": "https://github.com/hooked-so/hooked-mcp/issues"
   }
 }
